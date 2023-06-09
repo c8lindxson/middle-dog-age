@@ -1,0 +1,22 @@
+<% user_age = userAge.to_i %>
+<% early_years = 21 %>
+<% later_years = user_age - 2 %>
+<% later_years *= 4 %>
+<% dog_years = early_years + later_years %>
+<% if dog_years < 50 %>
+  <% image = './images/babypuppy.jpg' %>
+<% elsif dog_years < 100 %>
+  <% image = './images/puppy.jpg' %>
+<% elsif dog_years < 200 %>
+  <% image = './images/young dog.jpg' %>
+<% elsif  dog_years < 300 %>
+  <% image = './images/dog.webp' %>
+<% elsif dog_years < 400 %>
+  <%  image = './images/middle aged dog.jpeg' %>
+<% elsif dog_years < 500 %>
+  <% image = './images/old dog.jpg' %>
+<% elsif dog_years < 600 %>
+  <%  image = './images/super old dog.webp' %>
+<% else %>
+  <%  image = './images/dog-questino.png' %>
+<% end %>

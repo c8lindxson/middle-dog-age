@@ -1,0 +1,11 @@
+.image {
+  align-content: center;
+  max-height: 400px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.image img {
+  border-radius: 5px;
+  display: block;
+}
